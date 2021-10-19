@@ -30,7 +30,7 @@ export default function PageHeader(props) {
 
     const { title, subTitle, icon } = props;
     return (
-        <Paper elevation={0} className={classes.root} >
+        <Paper className={classes.root} >
             <div className={classes.PageHeader}>
                 <Card className={classes.pageIcon}>
                     {icon}

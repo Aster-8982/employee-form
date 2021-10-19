@@ -69,7 +69,7 @@ const Employees = () => {
     };
 
     const addOrEdit = (employee, resetForm) => {
-        if (employee.id == 0)
+        if (employee.id === 0)
             employeeService.insertEmployee(employee)
         else
             employeeService.updateEmployee(employee)
